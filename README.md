@@ -6,9 +6,9 @@ The idea here is to implement an ensemble of rules and conventions in French Tar
 --- IMPORTANT NOTICE ---
 There are 2 ways of running this project :
 - either by running main.py
-- alternatively, you run the "game_modelisation.inpnb" notebook
+- alternatively, you can run the "game_modelisation.ipynb" python notebook
 
-The main features of this 'Rule based system' can be found :
+--- MAIN FEATURES ---
 in Player class :
 - open() -> "What should I do if I must play the first card of the trick ?"
 - answer() -> "What card should I play if first player has already chosen a color ?"
@@ -20,7 +20,5 @@ in Game class :
 in Tricks class :
 - compute_cut_risk() -> "Is playing this card safe ?"
 
-
-There are many cases and exceptions in every tarot game, they should be covered by various tests but you might still meet some :)
 
 *French Tarot rules are available here : https://www.pagat.com/tarot/frtarot.html
