@@ -21,4 +21,8 @@ in Tricks class :
 - compute_cut_risk() -> "Is playing this card safe ?"
 
 
+--- NOTE CONCERNING WIP MENTIONS ---
+This was an ambitious project compared to the amount of time I was given, which leads to some undevelopped ideas (tagged TODO).
+I left them to reflect my methodology and reflexions while elaborating this rule based system :)
+
 *French Tarot rules are available here : https://www.pagat.com/tarot/frtarot.html
