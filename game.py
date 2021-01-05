@@ -73,7 +73,7 @@ class Game():
                     self.taker_id=i
                     
         if max(player_bids) is 0: 
-            print("[Game.bid] No one took.")
+            print("[Game.bid] No one took : you may re-run the code until one player takes !")
         else:
             for i in range(4):
                 self.players[(player_bids.index(max(player_bids))-i)%4].role=ROLES[i%4]

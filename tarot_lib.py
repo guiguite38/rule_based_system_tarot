@@ -1,8 +1,8 @@
 import random
 
-#############
-### CARDS ###
-#############
+#################################
+### CARDS AND BIDS DEFINITION ###
+#################################
 
 FIGURES = ['J','P','Q','K']
 FIGURES_NAMES = ["Jack","Knight","Queen","King"]
@@ -28,9 +28,9 @@ QUANTILES=[1.005, 1.015, 1.035, 1.045, 1.065, 1.075, 1.105, 1.135, 1.185]
 ROLES=['TAKER','OPENER','NEUTRAL','RELAUNCHER']
 
 
-######################
-### CARD FUNCTIONS ###
-######################
+#########################
+### CARDS RECOGNITION ###
+#########################
 
 def get_card_role(card):
     # TODO : check else clause validity
@@ -54,7 +54,6 @@ def get_color(card):
 
 ### TESTS ###
 # sampling = random.sample(PLAYING_CARDS,2)
-
 # for card in sampling:
 #     print(f"\n=== Card : {card} ===\nCard value : {get_card_role(card)}\nis figure : {is_figure(card)}\nis not figure {is_non_figure(card)}\nis trump : {is_trump(card)}\nis oudler : {is_oudler(card)}\nhas color : {get_color(card)}")
 
