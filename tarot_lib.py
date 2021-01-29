@@ -1,8 +1,8 @@
 import random
 
-#################################
-### CARDS AND BIDS DEFINITION ###
-#################################
+#===========================#
+# CARDS AND BIDS DEFINITION #
+#===========================#
 
 FIGURES = ['J','P','Q','K']
 FIGURES_NAMES = ["Jack","Knight","Queen","King"]
@@ -28,9 +28,9 @@ QUANTILES=[1.005, 1.015, 1.035, 1.045, 1.065, 1.075, 1.105, 1.135, 1.185]
 ROLES=['TAKER','OPENER','NEUTRAL','RELAUNCHER']
 
 
-#########################
-### CARDS RECOGNITION ###
-#########################
+#===================#
+# CARDS RECOGNITION #
+#===================#
 
 def get_card_role(card):
     # TODO : check else clause validity
@@ -57,9 +57,9 @@ def get_color(card):
 # for card in sampling:
 #     print(f"\n=== Card : {card} ===\nCard value : {get_card_role(card)}\nis figure : {is_figure(card)}\nis not figure {is_non_figure(card)}\nis trump : {is_trump(card)}\nis oudler : {is_oudler(card)}\nhas color : {get_color(card)}")
 
-###################################################
+#=================================================#
 # Hand Management : Sorting, Showing, Information #
-###################################################
+#=================================================#
 
 # UTILITY FUNCTION
 def get_index(card):
@@ -106,9 +106,9 @@ def get_color_count(hand,color):
 #     print(get_card_value(card))
 
 
-####################
+#==================#
 # TRICK MANAGEMENT #
-####################
+#==================#
 
 def holder(trick):
     '''
@@ -144,9 +144,9 @@ def holder(trick):
 #     print(f"Holding card is {to_string(holder(trick))}\n")
 
 
-##########
+#========#
 # BIDING #
-##########
+#========#
 
 CONTRACTS = [56,51,41,36]
 POINTS = [1.5,2.5,3.5,4.5]

@@ -1,6 +1,10 @@
 from tarot_lib import *
 
 class Player():
+    '''
+    General class to manage players' hands and gameplay.
+    '''
+
     def __init__(self, hand, *args, **kwargs):
         '''
         A player is defined by :

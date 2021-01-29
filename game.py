@@ -3,10 +3,11 @@ import tricks as t
 from tarot_lib import *
 
 class Game():
-    """DOC"""
+    '''
+    Class designed to handle main game aspects : dealing, bids, ecart and tricks succession.
+    '''
 
     def __init__(self, *args, **kwargs):
-        """DOC"""
         hand0,hand1,hand2,hand3,dog=self.deal()
         self.hands = [hand0,hand1,hand2,hand3]
         for hand in self.hands:

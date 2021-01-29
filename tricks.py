@@ -2,7 +2,8 @@ from tarot_lib import *
 
 class Tricks():
     '''
-    Class used to easily access data about past tricks.
+    Class used to easily access data about past tricks, and resulting information 
+    about the game (ex: strongest card in color).
     '''
     def __init__(self):
         self.tricks=[[]]*18
